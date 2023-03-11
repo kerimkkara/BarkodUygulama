@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BarkodUygulama.exe" version="1.0.0.19" publicKeyToken="f1220511637d96b0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BarkodUygulama" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BarkodUygulama.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BarkodUygulama.exe" size="71552">
+      <assemblyIdentity name="BarkodUygulama" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tg4BeWjn4xPMQKQrEkLp3WDQsoC7Yhymw2LZbA1QQ/Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExcelDataReader.dll" size="161792">
+      <assemblyIdentity name="ExcelDataReader" version="3.6.0.0" publicKeyToken="93517DBE6A4012FA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6hvMAj7Is/B2040UpwiQbVdWI2k5FYX4qMKBjZMAsEc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExcelDataReader.DataSet.dll" size="9728">
+      <assemblyIdentity name="ExcelDataReader.DataSet" version="3.6.0.0" publicKeyToken="93517DBE6A4012FA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>psiBU4wfpUbJxmD6JqL31nw+5BVamxZsMedAftxtvHI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zxing.dll" size="498176">
+      <assemblyIdentity name="zxing" version="0.16.8.0" publicKeyToken="4E88037AC681FE60" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fvYfZ7JyS0wSb1NydI0SNZB92McmdjnrRey8S+6Zlzs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zxing.presentation.dll" size="19968">
+      <assemblyIdentity name="zxing.presentation" version="0.16.8.0" publicKeyToken="4E88037AC681FE60" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Z7INzpofXXnofUTtr5ZZ8U25zxNHe9e+G7y5ypgOqOA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BarkodUygulama.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BH\bh" issuerKeyHash="78a6cdd636ef3010d158356868c69150bc67da19" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oXEo/rSsYGIyuFrjiMkQWVBsn+2dhJJGlcOZfo5mORg=</DigestValue></Reference></SignedInfo><SignatureValue>dnm0leisjPQCncwPxY/58izvLB+0GCSp1dUwDNLgMh+Gholp/6TondvJCTY7XMNiRryhE6Cr3FZh1XJQC/0wQ4oYT73RYtJvhPzZQlLMk+/3ffqolv1dQymjXbn0itWh3+ecg7oI9P6Am1TAVFEYBN0F9ctmKGboqJ7pX8X4Hc0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u3US9h5XHyn5I8ZBL0RLd1qa21Ag78fEYDuaAdGvHi5RR8aDmeNFooiG7EQSB5N3tT57ZIzV6tVssQ7EXEsBulEaoJHWfDfQ+BTBPiAa4O+DGpRca8lztysRncsu2po/DVaJ2J5886YmkPouX97y3gHzf9y/C1isbbvNsMU44pE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1839668e7e99c3954692849ded9f6c505910c988e35ab8326260acb4fe2871a1" Description="" Url=""><as:assemblyIdentity name="BarkodUygulama.exe" version="1.0.0.19" publicKeyToken="f1220511637d96b0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BH\bh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>i0RJBLCuwjfuxY+MrvkiiuXiHPi4LP98LJX8fuITBNs=</DigestValue></Reference></SignedInfo><SignatureValue>LM61u9NQ9SLKtjMRFs3BRWEzW5O+HJy452DQ8VMyvtxxFCTtmkTJWhvBnczwpliyZWv1jlCfhlPvX6JimxmYDeZ1pV8ssZnaKE7bmiyY9v/oiwspRNuy18YRsl9Xpx7Nl1P/OXVDkh7x6Ym48fcwyD4Nwb4bXv253ikIf7/i7Yw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u3US9h5XHyn5I8ZBL0RLd1qa21Ag78fEYDuaAdGvHi5RR8aDmeNFooiG7EQSB5N3tT57ZIzV6tVssQ7EXEsBulEaoJHWfDfQ+BTBPiAa4O+DGpRca8lztysRncsu2po/DVaJ2J5886YmkPouX97y3gHzf9y/C1isbbvNsMU44pE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBrTCCARagAwIBAgIQEPAmGARUDa1DW0TclNx7IDANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDHgoAQgBIAFwAYgBoMB4XDTIyMDgxNDE2MjA1OVoXDTIzMDgxNDIyMjA1OVowFTETMBEGA1UEAx4KAEIASABcAGIAaDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAu3US9h5XHyn5I8ZBL0RLd1qa21Ag78fEYDuaAdGvHi5RR8aDmeNFooiG7EQSB5N3tT57ZIzV6tVssQ7EXEsBulEaoJHWfDfQ+BTBPiAa4O+DGpRca8lztysRncsu2po/DVaJ2J5886YmkPouX97y3gHzf9y/C1isbbvNsMU44pECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCNG7gtKvRxfkyVMEmKumEm3rY/BIjcBHLnm5Y7/g9f8uy5ocjc4RX0JltRkO0kKdRMbd1ZbfTcY7bwdeQpk81ooQ/+hTWWQWfFwDj2k6xBhIwxpg/P8XXOUH15wlnTmLS+iBgVpKMgMS+Aoox+2lXA/5LkS5Zm/HtN4NPqgdQzdg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
